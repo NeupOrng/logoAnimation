@@ -1,7 +1,7 @@
 .animation-container{
   top: 10%;
   position: absolute;
-  left: 20%;
+  left: 0%;
   width: 1000px;
   display: flex;
   animation-name: lastanimation;

@@ -7,8 +7,13 @@
   animation-name: lastanimation;
   animation-delay: 1s;
   animation-duration: 1s;
-
 }
+@media screen and (max-width: 1200px) {
+  .animation-container{
+    left: 0%;
+  }
+}
+
 .animation-ele img{
   max-width: 100px;
 

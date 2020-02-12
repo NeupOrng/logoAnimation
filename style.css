@@ -7,6 +7,7 @@
   animation-name: lastanimation;
   animation-delay: 1s;
   animation-duration: 1s;
+
 }
 .animation-ele img{
   max-width: 100px;
@@ -29,33 +30,43 @@
   left: 20%;
   padding-top: 250px;
   animation-name: anCP;
-  animation-duration: 1s;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
 }
 #A{
   padding-top: 250px;
   animation-name: anA;
-  animation-duration: 1s;
+  animation-duration: 20s;
+
+  animation-iteration-count: infinite;
 }
 #N{
   padding-top: 250px;
   animation-name: anN;
-  animation-duration: 1s;
+  animation-duration: 20s;
+
+  animation-iteration-count: infinite;
 }
 #O{
   padding-top: 250px;
   animation-name: anO;
 
-  animation-duration: 1s;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
 }
 #P{
   padding-top: 250px;
   animation-name: anP;
-  animation-duration: 1s;
+  animation-duration: 20s;
+
+  animation-iteration-count: infinite;
 }
 #Y{
   padding-top: 250px;
   animation-name: anY;
-  animation-duration: 1s;
+  animation-duration: 20s;
+
+  animation-iteration-count: infinite;
 }
 
 @keyframes anCP{
@@ -63,9 +74,11 @@
     opacity: 0;
     left: 5%;
   }
-  70%{
-    opacity: 0;
-    left: 5%;;
+  5%{
+    left: 20%;
+  }
+  15%{
+    opacity: 1;
   }
   100%{
     left: 20%;
@@ -77,16 +90,21 @@
     padding-top: 0px;
     opacity: 0;
   }
+  5%{padding-top: 250px;
+  opacity: 1;}
   100%{
     padding-top: 250px;
     opacity: 1;
   }
 }
+
 @keyframes anN {
   0%{
     padding-top: 0px;
     opacity: 0;
   }
+  5%{padding-top: 250px;
+  opacity: 1;}
   100%{
     padding-top: 250px;
     opacity: 1;
@@ -97,26 +115,34 @@
     padding-top: 0px;
     opacity: 0;
   }
+  5%{padding-top: 250px;
+  opacity: 1;}
   100%{
     padding-top: 250px;
     opacity: 1;
   }
 }
+
 @keyframes anP {
   0%{
     padding-top: 0px;
     opacity: 0;
   }
+  5%{padding-top: 250px;
+  opacity: 1;}
   100%{
     padding-top: 250px;
     opacity: 1;
   }
 }
+
 @keyframes anY {
   0%{
     padding-top: 0px;
     opacity: 0;
   }
+  5%{padding-top: 250px;
+  opacity: 1;}
   100%{
     padding-top: 250px;
     opacity: 1;

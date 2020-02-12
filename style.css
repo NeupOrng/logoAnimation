@@ -1,0 +1,170 @@
+.animation-container{
+  top: 10%;
+  left: 20%;
+  position: absolute;
+  width: 1000px;
+  display: flex;
+}
+.animation-ele img{
+  max-width: 100px;
+
+}
+.latter-container{
+  margin-top: 75px;
+  display: flex;
+}
+#CP img{
+  max-width: 300px;
+}
+#Y img{
+  max-width: 90px;
+}
+#CP{
+  padding-top: 250px;
+  animation-name: anCP;
+  animation-duration: 1.5s;
+}
+#A{
+  padding-top: 250px;
+  animation-name: anA;
+  animation-duration: 1.5s;
+}
+#N{
+  padding-top: 250px;
+  animation-name: anN;
+  animation-duration: 1.5s;
+}
+#O{
+  padding-top: 250px;
+  animation-name: anO;
+  animation-duration: 1.5s;
+}
+#P{
+  padding-top: 250px;
+  animation-name: anP;
+  animation-duration: 1.5s;
+}
+#Y{
+  padding-top: 250px;
+  animation-name: anY;
+  animation-duration: 1.5s;
+}
+
+@keyframes anCP{
+  0%{
+    padding-top: 0px;
+    opacity: 0;
+  }
+  40%{
+    padding-top: 280px;
+    opacity: 0.5;
+  }
+  60%{
+    padding-top: 230px;
+    opacity: 1;
+  }
+
+  100%{
+    padding-top: 250px;
+    opacity: 1;
+  }
+
+}
+@keyframes anA {
+  0%{
+    padding-top: 0px;
+    opacity: 0;
+  }
+  40%{
+    padding-top: 300px;
+    opacity: 0.5;
+  }
+  60%{
+    padding-top: 200px;
+    opacity: 1;
+  }
+  80%{
+    padding-top: 260px;
+    opacity: 1;
+  }
+  100%{
+    padding-top: 250px;
+    opacity: 1;
+  }
+}
+@keyframes anN {
+  0%{
+    padding-top: 0px;
+    opacity: 0;
+  }
+  40%{
+    padding-top: 280px;
+    opacity: 0.5;
+  }
+  60%{
+    padding-top: 230px;
+    opacity: 1;
+  }
+
+  100%{
+    padding-top: 250px;
+    opacity: 1;
+  }
+}
+@keyframes anO {
+  0%{
+    padding-top: 0px;
+    opacity: 0;
+  }
+  40%{
+    padding-top: 280px;
+    opacity: 0.5;
+  }
+  60%{
+    padding-top: 230px;
+    opacity: 1;
+  }
+
+  100%{
+    padding-top: 250px;
+    opacity: 1;
+  }
+}
+@keyframes anP {
+  0%{
+    padding-top: 0px;
+    opacity: 0;
+  }
+  40%{
+    padding-top: 280px;
+    opacity: 0.5;
+  }
+  60%{
+    padding-top: 230px;
+    opacity: 1;
+  }
+
+  100%{
+    padding-top: 250px;
+    opacity: 1;
+  }
+}
+@keyframes anY {
+  0%{
+    padding-top: 0px;
+    opacity: 0;
+  }
+  40%{
+    padding-top: 280px;
+    opacity: 0.5;
+  }
+  60%{
+    padding-top: 230px;
+    opacity: 1;
+  }
+
+  100%{
+    padding-top: 250px;
+    opacity: 1;
+  }
+}
